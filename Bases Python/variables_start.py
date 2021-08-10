@@ -5,8 +5,6 @@
 # Declarer une variable et l'initialiser
 
 #Integer
-a = 15
-print(a)
 
 
 

@@ -25,20 +25,24 @@ t = datetime.now() - timedelta(weeks=1)
 s = t.strftime("%A %B %d, %Y")
 print ("Il y a une semaine, c'etait le  " + s)
 
-### Combien de jours avant le poisson d'avril ?
 
-# obtenir la date d'aujourd'hui
+#Obtenir la date d'aujourd'hui
 today = date.today()
-# Obtenir la date du poisson d'avril pour la même année.
-afd = date(today.year, 4, 1)  
-# utiliser la comparaison des dates pour voir si le poisson d'avril est déjà passé pour cette année.
-# Si c'est le cas, utilisez la fonction replace() pour obtenir la date de l'année prochaine.
-if afd < today:
-  print ("Le poisson d'avril est déjà passé il y a %d jours." % ((today-afd).days))
-  # si oui, obtenir la date pour l'année prochaine
-  afd = afd.replace(year=today.year + 1) 
 
-# Maintenant, calculez le temps qu'il reste avant le poisson d'avril.  
-time_to_afd = afd - today
-print ("il reste", time_to_afd.days, "jours jusqu'au poisson d'avril!")
+#Obtenir une date precise (Nouvel an)
+nouvel_an = date(today.year, 1,1)
+
+#Operation entre les dates
+diff = today-nouvel_an
+
+print(diff.days)
+print(diff.min)
+print(diff.seconds)
+
+
+#Obtenir la date pour le prochain nouvel an
+nouvel_an = nouvel_an.replace(year = today.year + 1)
+
+
+
 
