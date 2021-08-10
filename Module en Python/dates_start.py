@@ -4,6 +4,7 @@
 
 
 def main():
+  pass
   ## DATE OBJECTS
   # Get today's date from the simple today() method from the date class
 
@@ -24,5 +25,5 @@ def main():
 
   
 if __name__ == "__main__":
-  main();
+  main()
   

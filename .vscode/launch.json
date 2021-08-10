@@ -4,14 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
         {
-            "name": "Python : Fichier actuel",
+            "name": "Python: Current File",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "internalConsole",
-            "cwd": "${workspaceFolder}"
+            "cwd":"${workspaceFolder}",
         }
     ]
 }
