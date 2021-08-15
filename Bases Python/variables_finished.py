@@ -81,10 +81,52 @@ texte1 = texte1.replace(" ", "-")
 #Collections
 
 #Déclarer une list avec la possibilité de modifier son contenu
-list_data = [1, 2, 3, 4]
+maliste = [0, 1, 1, 2, 2, 3, 5, 8, 13]
+print (maliste)
+
+# J'accède au 7e élément de la liste (les index commencent à 0)
+maliste[6]
+print(maliste[6])
+
+# Je retire le 5e élément de la liste
+maliste.pop(4)
+print (maliste)
+# J'ajoute un élément à la fin
+maliste.append(21)
+print (maliste)
+
+# J'extrais les éléments de la position 3 jusqu'au bout
+print(maliste[2:])
+
+# J'extrais les deux premiers éléments
+print(maliste[:2])
+
+# J'extrais les éléments de la position 4 à 6 (les index commencent à 0)
+print(maliste[3:5])
+
+# Quelle est la longueur de ma liste ?
+len(maliste)
+
+maliste[2] = 'modif'
+print(maliste)
+# Je modifie un élément (celui qui est en 3e position !)
 
 #Déclarer un tuple sans la possibilité de modifier son contenu
-tuple_data = (1, 2, 3, 4)
+montuple = (0, 1, 1, 2, 2, 3, 5, 8, 13)
+print(montuple)
+
+#J'accède au 7e élément de la liste (les index commencent à 0)
+montuple[6]
+
+
+#On peut pas modifier un tuple
+montuple.pop(4)
+
+
+
+#SET
+liste_avec_doublons = ['pascal', 'pierre', 'paul', 'pierre']
+print(set(liste_avec_doublons))
 
 #Construire un dictionnaire
 dico = {}
@@ -93,6 +135,26 @@ dico['mouse'] ='souris'
 dico['keyboard'] ='clavier'
 print("dico")
 dico = {'computer': 'ordinateur', 'keyboard': 'clavier', 'mouse': 'souris'}
+
+
+#Un autre dictionnaire
+berti = {'nom': 'Bertignac', 'prenom': 'Louis', 'instruments': ['guitare', 'chant']}
+print(berti)
+
+#Accéder à la valeur rattaché à la clé Nom
+print(berti['nom'])
+
+#Accéder à la valeur rattaché à la clé Instrument
+print(berti['instruments'])
+
+#Enregistrer un nouvel ensemble clé valeur
+berti['groupes'] = ['Higelin', 'Telephone', 'Bertignac et les visiteurs']
+print(berti)
+
+#Effacer une clé et la valeur qui lui est associée
+del berti['instruments']
+print(berti)
+
 
 
 
