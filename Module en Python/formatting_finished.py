@@ -33,7 +33,7 @@ def main():
   print (now.strftime("Heure actuelle: %I:%M:%S %p")) 
 
   ## 24-Hour:Minute
-  print (now.strftime("Heure Minure: %H:%M")) 
+  print (now.strftime("Heure Minute: %H:%M")) 
 
 
 if __name__ == "__main__":
