@@ -69,6 +69,7 @@ print(res)
 
 #Mettre texte en majuscule
 texte1 = texte1.upper()
+texte1.
 
 ##Mettre texte en miniscule
 texte1 = texte1.lower()
@@ -138,7 +139,11 @@ dico = {'computer': 'ordinateur', 'keyboard': 'clavier', 'mouse': 'souris'}
 
 
 #Un autre dictionnaire
-berti = {'nom': 'Bertignac', 'prenom': 'Louis', 'instruments': ['guitare', 'chant']}
+berti = {
+  'nom': 'Bertignac', 
+  'prenom': 'Louis', 
+  'instruments': ['guitare', 'chant']
+  }
 print(berti)
 
 #Accéder à la valeur rattaché à la clé Nom

@@ -6,9 +6,14 @@
 
 
 
-def main():
-    pass
+def maximum(n1, n2, n3):
+    ma_liste = [n1, n2, n3]
+    pg = ma_liste[0]
+    for x in ma_liste:
+        if x > pg:
+            pg = x
+    return pg
 
 
-if __name__ == "__main__":
-    main()
+
+print(maximum(115,60,45))
