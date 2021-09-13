@@ -12,25 +12,6 @@
 # 549.78
 
 
-# Classes dérivées - Polymorphisme
-
-class Cercle:
-    def __init__(self, rayon):
-        self.rayon = rayon
-    def surface(self):
-        return 3.1416 * (self.rayon**2)
-    def nom(self):
-        return "Je suis là"
-
-class Cylindre(Cercle):
-    def __init__(self, rayon, hauteur):
-        Cercle.__init__(self, rayon)
-        self.hauteur = hauteur
-
-    def volume(self):
-        return self.surface()*self.hauteur
-
-
 
 def main():
     pass

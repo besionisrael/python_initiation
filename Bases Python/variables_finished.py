@@ -96,6 +96,9 @@ print (maliste)
 maliste.append(21)
 print (maliste)
 
+#Ou
+maliste+=[12]
+
 # J'extrais les éléments de la position 3 jusqu'au bout
 print(maliste[2:])
 
@@ -119,8 +122,8 @@ print(ma_liste)
 print(ma_liste[0])
 ma_liste.index(1) # retourne l’index d’une valeur 
 ma_liste[0] = 2 # ajoute un élément à la liste
-del ma_liste[0]  # supprimer un entrée avec son index 
-ma_liste.remove(1)  # supprimer un entrée avec sa valeur ( la premiere trouvée ) 
+del ma_liste[0]  # supprimer une entrée avec son index 
+ma_liste.remove(1)  # supprimer une entrée avec sa valeur ( la premiere trouvée ) 
 ma_liste.reverse()  # inverse la liste
 ma_liste.count(1)  # compte le nombre d’occurence d’une valeur
 ma_liste_imbrique = [1, [2, 3 ]] # liste imbriqué
@@ -179,6 +182,7 @@ dico = {}
 dico['computer'] = 'ordinateur'
 dico['mouse'] ='souris'
 dico['keyboard'] ='clavier'
+dico.update({'printer': 'canon'})
 print("dico")
 dico = {'computer': 'ordinateur', 'keyboard': 'clavier', 'mouse': 'souris'}
 
@@ -200,6 +204,9 @@ print(berti['instruments'])
 #Enregistrer un nouvel ensemble clé valeur
 berti['groupes'] = ['Higelin', 'Telephone', 'Bertignac et les visiteurs']
 print(berti)
+
+#Accéder à une liste dans un dictionnaire
+print(berti['groupes'][1])
 
 #Effacer une clé et la valeur qui lui est associée
 del berti['instruments']
