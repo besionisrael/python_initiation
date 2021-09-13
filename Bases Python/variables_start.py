@@ -1,69 +1,182 @@
+# 
+# Fichier d'exemple pour les variables
+#
 
+# Declarer une variable et l'initialiser
 
 #Integer
-#a = 15
-#print(a)
 
 
-#float
-b = 7.5
-#print(b)
-#print("le type de b", type(b))
+
+
+#Float
+
+
 
 #String
-#texte1 = 'Ceci est un texte1'
-#texte2 = "Ceci est un texte2"
-#texte3 = '''
-#Ceci est un texte sur plusieurs lignes
-#'''
 
-#print(texte1, texte2, texte3)
 
-#Redeclaration des variabes
-b = 8
-#print(b)
-#print("le type de b", type(b))
+
+# La re-declaration des variables est possible
+
+
+
+#Obtenir le type d'une variable
+
 
 #Caster
-'''age = '14'
-print(age, type(age))
-age_converti = int(age)
-print(age_converti, type(age_converti))
-ajout = age_converti + 10
-print("resultat", ajout)'''
-
-age = '14'
-ajout = int(age) + 10
-#print("resultat", ajout)
-
-#Convertir en entier: int()
-age = '14'
-age = int(age)
-#Convertir en string: str()
-
-#taille = 2.5
-#print("ma taille est " + taille)
 
 
-#Convertir en float: float()
+
+# Erreur: Les variables des types différents ne peuvent être combinées
+
+#print ("string type " + 123)
+
+
 
 #Operations sur le string
-texte1 = "Je m'appelle "
-texte2 = "Henry"
 
-#Concatenation
-texte3 = texte1 + texte2
-print("concatenation", texte3)
 
-#longueur de la chaine
-print("longueur de la chaine", len(texte3))
+## Concatenation
 
-#split
-print("Split ex ", texte3.split(" "))
 
-#Mettre en majuscule
-print("texte en majuscule", texte3.upper())
+##longueur de la chaine
 
-print("capitalize", texte3.capitalize())
-print("lower", texte3.lower())
-print("replace", texte3.replace(" ", "-"))
+
+## Split Chaine
+
+
+#Mettre texte en majuscule
+
+
+##Mettre texte en miniscule
+
+
+##Remplacer un element dans le texte
+
+
+
+
+#Collections
+
+#Déclarer une list avec la possibilité de modifier son contenu
+
+
+# J'accède au 7e élément de la liste (les index commencent à 0)
+
+
+# Je retire le 5e élément de la liste
+
+# J'ajoute un élément à la fin
+
+
+#Ou
+
+
+# J'extrais les éléments de la position 3 jusqu'au bout
+
+
+# J'extrais les deux premiers éléments
+
+
+# J'extrais les éléments de la position 4 à 6 (les index commencent à 0)
+
+
+# Quelle est la longueur de ma liste ?
+
+# Je modifie un élément (celui qui est en 3e position !)
+
+#Serie de fonction
+
+
+#Copier une liste
+##Copie par référence
+
+
+##Copie par valeur
+
+
+#Transformation String en liste
+
+
+#Transformation liste en string
+
+
+#Extension de liste  
+
+
+
+
+#Déclarer un tuple sans la possibilité de modifier son contenu
+
+
+#J'accède au 7e élément de la liste (les index commencent à 0)
+
+
+
+#On peut pas modifier un tuple
+
+
+
+
+#SET
+
+
+#Construire un dictionnaire
+
+
+#Un autre dictionnaire
+
+#Accéder à la valeur rattaché à la clé Nom
+
+
+#Accéder à la valeur rattaché à la clé Instrument
+
+
+#Enregistrer un nouvel ensemble clé valeur
+
+
+#Accéder à une liste dans un dictionnaire
+
+
+#Effacer une clé et la valeur qui lui est associée
+
+
+#Récupérer une valeur depuis sa clé
+
+
+
+#Supprimer une entrée
+
+
+#Récupérer la listes des clés
+
+
+#Récupérer la listes des valeurs
+
+
+
+#Récupérer la listes des clés/valeurs
+
+
+
+
+#Copier un dictionnaire par référene
+
+
+#Copier un dictionnaire par valeur
+
+
+
+
+
+
+
+# Variables locales vs variables globales
+
+
+  
+
+
+
+#Mutiples variables
