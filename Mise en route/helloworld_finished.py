@@ -2,8 +2,11 @@
 # Fichier Exemple pour Helloworld
 #
 
-def main():
-    print("hello world!")
-
-if __name__ == "__main__":
-    main()
+# Debut de programme
+print("*************************")
+# print("***** Bienvenue *********")
+#Recuperation de la valeur nom chez l'utilisateur
+nom = input("Quel est votre nom ? ")
+prenom = input("Quel est votre prenom ? ")
+print("********* Bravo******")
+print("vous vous appelez ", prenom, nom)
