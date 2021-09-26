@@ -11,10 +11,29 @@
 # >>> print(cyl.volume())
 # 549.78
 
+class Cercle:
+    def __init__(self, rayon):
+        self.rayon = rayon
+    
+    def surface(self):
+        return 3.14 * (self.rayon ** 2)
+
+class Cylindre(Cercle):
+    
+    def __init__(self, rayon, hauteur):
+        self.hauteur = hauteur
+        Cercle.__init__(self, rayon)
+        
+    
+    def volume(self):
+        return self.surface() * self.hauteur
+
+
 
 
 def main():
-    pass
+    c1 = Cylindre(5,10)
+    print(c1.surface())
 
 
 if __name__ == "__main__":
