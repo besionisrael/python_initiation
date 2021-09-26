@@ -104,36 +104,6 @@ print(capital_words_spaces("PythonExercises"))
 print(capital_words_spaces("PythonExercisesPracticeSolution"))
 
 
-#EXErcice 4
-
-#Retrouvez tous les mots dans une chaine de caractères
-
-def words(string):
-	pattern = r"\b(\w+)\b"
-	return re.findall(pattern, string)
-
-#Retrouver tous les mots qui se terminent par un caractère donné
-def wordsStartingBy(string, c):
-    #pattern = r"\b^" + c + r"\w+\b"
-    pattern = r"\b(" + c +"\w+)\b"
-    return re.findall(pattern, string)
-
-#Retrouver tous les mots qui se commencent par un caractère donné
-def wordsEndingBy(string, c):
-	pattern = r"\b(\w+" + c + r")\b"
-	return re.findall(pattern, string)
-
-#Retrouver tous les mots qui contiennent au moins un caractère
-def wordsHavingAtLeastOneCharacter(string):
-    pattern = r"\b\w+\b"
-    return re.findall(pattern, string)
-
-#Retrouver tous les mots qui possèdent exactement n caractères
-def wordsHavingAtLeastNCharacter(string, n):
-    pattern = r"\b\w{" + str(n) + r"}\b"
-    return re.findall(pattern, string)
-
-
 
 if __name__ == "__main__":
     pass
