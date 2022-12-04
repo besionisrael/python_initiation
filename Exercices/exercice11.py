@@ -1,27 +1,25 @@
+# 12. Définissez une classe Cercle(). Les objets construits à partir de cette classe seront des 
+# cercles de tailles variées. En plus de la méthode constructeur 
+# (qui utilisera donc un paramètre rayon), vous définirez une méthode surface(), 
+# qui devra renvoyer la surface du cercle.
+# Définissez ensuite une classe Cylindre() dérivée de la précédente. Le constructeur de cette nouvelle 
+# classe comportera les deux paramètres rayon et hauteur. 
+# Vous y ajouterez une méthode volume() 
+# qui devra renvoyer le volume du cylindre (rappel : volume d’un cylindre = surface de section × hauteur).
 
-# 1- Retrouvez tous les mots dans une chaine de caractères
-
-
-
-
-# 2 – Retrouver tous les mots qui se terminent par un caractère donné
-
-
-
-
-
-
-# 3 – Retrouver tous les mots qui commencent par un caractère donné
-
-
-
-
-
-# 4. Retrouver tous les mots qui contiennent au moins un caractère
+# Exemple d’utilisation de cette classe :
+# >>> cyl = Cylindre(5, 7)
+# >>> print(cyl.surface())
+# 78.54
+# >>> print(cyl.volume())
+# 549.78
 
 
 
 
+def main():
+    pass
 
 
-# 5. Retrouver tous les mots qui possèdent exactement n caractères.
+if __name__ == "__main__":
+    main()
