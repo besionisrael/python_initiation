@@ -4,6 +4,7 @@
 
 
 def main():
+  pass
   ## DATE OBJECTS
   # Obtenir la date actuelle de la methode today de la classe Date
 
